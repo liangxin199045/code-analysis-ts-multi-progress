@@ -55,7 +55,7 @@ const analysis = async function(options){
         }
         // 是否启用多进程
         let codeAnalysis = null;
-        if(config.scanSource.length>1){
+        if(options.scanSource.length>1){
             codeAnalysis = require(path.join(__dirname,'../lib/master'));        // 多进程分析入口
         }else{
             codeAnalysis = require(path.join(__dirname,'../lib/index'));         // 单进程分析入口
