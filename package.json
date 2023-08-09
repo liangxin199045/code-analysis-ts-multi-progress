@@ -1,6 +1,6 @@
 {
   "name": "code-analysis-ts-multi-progress",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a code dependency analysis tool for ts support multi-progress",
   "main": "./api/index.js",
   "module": "./api/index.js",
